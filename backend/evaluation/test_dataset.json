@@ -1,0 +1,156 @@
+
+[
+  {
+    "id": "T1",
+    "question": "Explain scaled dot-product attention in the Transformer architecture.",
+    "expected_evidence": [
+      {
+        "source": "research_paper 3.pdf",
+        "pages": ["4"],
+        "keywords": [
+          "Scaled Dot-Product Attention",
+          "queries",
+          "keys",
+          "values",
+          "softmax"
+        ],
+        "min_keyword_matches": 2
+      }
+    ]
+  },
+  {
+    "id": "T2",
+    "question": "Explain the encoder and decoder architecture of the Transformer.",
+    "expected_evidence": [
+      {
+        "source": "research_paper 3.pdf",
+        "pages": ["3"],
+        "keywords": [
+          "encoder",
+          "decoder",
+          "self-attention",
+          "feed-forward"
+        ],
+        "min_keyword_matches": 2
+      }
+    ]
+  },
+  {
+    "id": "T3",
+    "question": "What were the WMT 2014 English-to-German and English-to-French translation results, including BLEU scores and training time?",
+    "expected_evidence": [
+      {
+        "source": "research_paper 3.pdf",
+        "pages": ["8"],
+        "keywords": [
+          "WMT 2014",
+          "BLEU",
+          "28.4",
+          "41.8"
+        ],
+        "min_keyword_matches": 2
+      },
+      {
+        "source": "research_paper 3.pdf",
+        "pages": ["1"],
+        "keywords": [
+          "3.5 days",
+          "eight GPUs",
+          "training",
+          "Transformer"
+        ],
+        "min_keyword_matches": 2
+      }
+    ]
+  },
+  {
+    "id": "T4",
+    "question": "Explain the benefits of OpenML for machine learning researchers.",
+    "expected_evidence": [
+      {
+        "source": "research_paper.pdf",
+        "pages": ["4"],
+        "keywords": [
+          "OpenML",
+          "datasets",
+          "experiments",
+          "sharing"
+        ],
+        "min_keyword_matches": 2
+      },
+      {
+        "source": "research_paper.pdf",
+        "pages": ["8"],
+        "keywords": [
+          "WEKA",
+          "MOA",
+          "R integration",
+          "OpenML"
+        ],
+        "min_keyword_matches": 2
+      },
+      {
+        "source": "research_paper.pdf",
+        "pages": ["9"],
+        "keywords": [
+          "scientists",
+          "plugins",
+          "experiment",
+          "machine learning"
+        ],
+        "min_keyword_matches": 2
+      },
+      {
+        "source": "research_paper.pdf",
+        "pages": ["10"],
+        "keywords": [
+          "students",
+          "young scientists",
+          "learn",
+          "contributions"
+        ],
+        "min_keyword_matches": 2
+      },
+      {
+        "source": "research_paper.pdf",
+        "pages": ["11"],
+        "keywords": [
+          "conclusions",
+          "networked science",
+          "machine learning"
+        ],
+        "min_keyword_matches": 2
+      }
+    ]
+  },
+  {
+  "id": "T5",
+  "question": "Compare the main contributions of the OpenML paper and the Transformer paper.",
+  "expected_evidence": [
+    {
+      "source": "research_paper.pdf",
+      "pages": ["4"],
+      "keywords": [
+        "OpenML",
+        "share data",
+        "organize",
+        "collaborate",
+        "code and results"
+      ],
+      "min_keyword_matches": 2
+    },
+    {
+      "source": "research_paper 3.pdf",
+      "pages": ["1"],
+      "keywords": [
+        "Transformer",
+        "attention mechanisms",
+        "recurrence",
+        "convolutional neural networks",
+        "sequence transduction"
+      ],
+      "min_keyword_matches": 2
+    }
+  ]
+}
+]

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Vector database
+.chroma/
+**/.chroma/
+
+# Generated files
+backend/output/
+backend/data/
+*.uploading
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
